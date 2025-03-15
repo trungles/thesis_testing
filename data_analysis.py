@@ -106,7 +106,7 @@ if __name__ == "__main__":
     
     res_dict.update({"keys" : list(keys)})
 
-    with open("data/unanalyzed.json", 'w') as outfile:
+    with open("data/analyzed.json", 'w') as outfile:
         json_object = json.dumps(res_dict)
         outfile.write(json_object)
 
