@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-with open("data/unanalyzed.json", 'r') as data:
+with open("data/analyzed.json", 'r') as data:
     res_dict = json.load(data)
 
     df_dict = {
